@@ -6,3 +6,13 @@ header{
   display: flex;
   gap: 20px;
 }
+.main{
+  display: flex;
+  justify-content: center;
+}
+.main-text{
+  width: 300px
+}
+.main-image{
+ width: 300px;
+}
