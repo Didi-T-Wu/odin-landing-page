@@ -16,3 +16,11 @@ header{
 .main-image{
  width: 300px;
 }
+h2{
+  text-align: center;
+}
+.projects{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
