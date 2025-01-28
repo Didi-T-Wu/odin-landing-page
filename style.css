@@ -24,3 +24,10 @@ h2{
   justify-content: center;
   gap: 20px;
 }
+.call-to-action{
+  display: flex;
+  justify-content: center;
+}
+.call-to-action-text{
+  width: 500px;
+}
