@@ -1,6 +1,14 @@
+body{
+  font-family: Roboto, sans-serif;
+  margin: 0 auto;
+  padding: 24px 96px;
+}
 header{
   display: flex;
   justify-content: space-between;
+}
+.logo{
+  width: 100px;
 }
 .nav-links{
   display: flex;
