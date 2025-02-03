@@ -3,12 +3,46 @@ body{
   margin: 0 auto;
   padding: 24px 96px;
 }
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  color: gray;
+}
+a:visited{
+  color: gray;
+}
+ul{
+  list-style-type: none;
+}
 header{
   display: flex;
   justify-content: space-between;
 }
 .logo{
   width: 100px;
+}
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-credit {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  right: -50%;
+  background: rgba(245, 242, 242, 0.7);
+  color: rgb(134, 127, 127);
+  padding: 5px;
+  font-size: 0.2em;
+  width: 100%;
+  text-align: center;
+}
+
+.image-container:hover .image-credit {
+  display: block;
 }
 .nav-links{
   display: flex;
