@@ -175,5 +175,9 @@ blockquote p{
   border: #E5E7eb 2px solid;
 }
 footer{
+  font-size: 12px;
   text-align: center;
+  background-color: #20221f;
+  color: #E5E7eb;
+  padding: 12px 24px;
 }
