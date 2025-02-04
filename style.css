@@ -60,13 +60,15 @@ header{
   gap: 20px;
 }
 .main{
-  margin-top: 24px;
+  margin: 48px;
   display: flex;
   justify-content: space-around;
+  gap:12px;
 }
 .main-text{
-  width: 300px
+  max-width: 300px;
 }
+
 .main-image{
  max-width: 400px;
 }
