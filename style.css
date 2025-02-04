@@ -140,9 +140,39 @@ blockquote p{
 .call-to-action{
   display: flex;
   justify-content: center;
+  padding:48px
+}
+.call-to-action-wrapper{
+  display: flex;
+  gap: 20px;
+  padding:48px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882F6;
+  width: 70%;
+  border-radius: 10px;
 }
 .call-to-action-text{
-  width: 500px;
+  text-align: left;
+}
+.call-to-action-text h3{
+  color: #F9FAF8;
+  font-weight: 900;
+  margin:0;
+  padding:0;
+}
+.call-to-action-text p{
+  color: #E5E7eb;
+  font-size: 12px;
+  margin:0;
+  padding:0;
+}
+.sign-up-button{
+  background-color: #3882F6;
+  color: #E5E7eb;
+  padding: 10px 24px;
+  border-radius: 10px;
+  border: #E5E7eb 2px solid;
 }
 footer{
   text-align: center;
