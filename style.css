@@ -64,11 +64,18 @@ header{
   display: flex;
   justify-content: space-around;
   gap:12px;
+  background-color: #1F2937;
 }
 .main-text{
   max-width: 300px;
 }
-
+.main-text h1{
+  color: #F9FAF8;
+  font-weight: 900;
+}
+.main-text p{
+  color: #E5E7eb;
+}
 .main-image{
  max-width: 400px;
 }
