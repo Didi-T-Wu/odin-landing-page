@@ -106,6 +106,23 @@ h2{
   justify-content: center;
   gap: 20px;
 }
+.project-image{
+  width: 150px;
+  height:200px;
+  border: #3882F6 2px solid;
+  border-radius: 10px;
+}
+figcaption.project-image-credit{
+  text-align: center;
+  font-size: 0.8em;
+}
+figcaption.project-image-credit a{
+  color: #3882F6;
+  text-decoration: underline;
+}
+figcaption.project-image-credit a:visited{
+  color: #1F2937;
+}
 .call-to-action{
   display: flex;
   justify-content: center;
