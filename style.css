@@ -2,12 +2,9 @@
 *::after {
     box-sizing: border-box;
 }
-
-
 * {
     padding: 0;
     margin: 0;
-
 }
 
 body{
@@ -30,6 +27,8 @@ a:visited{
 ul{
   list-style-type: none;
 }
+
+/* header style */
 header{
   display: flex;
   justify-content: space-between;
@@ -71,6 +70,8 @@ header{
   display: flex;
   gap: 20px;
 }
+
+/* main */
 .main{
   padding: 48px;
   display: flex;
@@ -112,6 +113,8 @@ header{
 .image-container img.main-image + .image-credit a {
   color: #E5E7eb;
 }
+
+/* information */
 .information{
   background-color: #f6f7fa;
   padding:10px;
@@ -141,6 +144,8 @@ figcaption.project-image-credit a{
 figcaption.project-image-credit a:visited{
   color: #1F2937;
 }
+
+/* quote */
 .quote{
   background-color: #E5E7eb;
   padding:5% 20%;
@@ -159,6 +164,8 @@ blockquote p{
   color: #1F2937;
   text-align: right;
 }
+
+/* call to action */
 .call-to-action{
   display: flex;
   justify-content: center;
@@ -195,6 +202,8 @@ blockquote p{
   border-radius: 10px;
   border: #E5E7eb 2px solid;
 }
+
+/* footer */
 footer{
   font-size: 12px;
   text-align: center;
