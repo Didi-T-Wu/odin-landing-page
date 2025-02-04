@@ -60,15 +60,27 @@ header{
   gap: 20px;
 }
 .main{
+  margin-top: 24px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 .main-text{
   width: 300px
 }
 .main-image{
- width: 300px;
+ max-width: 400px;
 }
+
+.image-container img.main-image + .image-credit {
+  color: #E5E7eb;
+  top:0;
+  left:0;
+}
+
+.image-container img.main-image + .image-credit a {
+  color: #E5E7eb;
+}
+
 h2{
   text-align: center;
 }
