@@ -76,6 +76,14 @@ header{
 .main-text p{
   color: #E5E7eb;
 }
+.sign-up{
+  background-color:#3882F6 ;
+  padding: 5px 24px;
+  border-radius: 10px;
+  border:none;
+  color:#E5E7eb;
+
+}
 .main-image{
  max-width: 400px;
 }
